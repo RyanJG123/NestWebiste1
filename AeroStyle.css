@@ -1,0 +1,48 @@
+/* --- AESTHETIC GRADIENT BACKGROUND --- */
+body {
+    /* Replace the image URL with a professional dark gradient */
+    background-color: #1a1a2e; /* Deep dark blue/purple */
+    background-image: linear-gradient(
+        to bottom right, 
+        #81818a, /* Dark tone 1 */
+        #e6ece8 /* Dark tone 2 (slightly purple/slate) */
+    );
+    
+    /* Keep these properties for structure and text visibility */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4; /* Light text for high contrast */
+    background-attachment: fixed;
+}
+
+
+/* --- NAVIGATION AND CARD BACKGROUNDS --- */
+
+
+
+/* Ensure the main descriptive section is transparent so the body gradient shows */
+.feature {
+    background-color: transparent; 
+}
+
+/* Ensure cards are semi-transparent and styled professionally */
+.card {
+    background-color: rgba(43, 45, 66, 0.7); /* Semi-transparent dark navy */
+    border: 1px solid rgba(144, 224, 239, 0.2); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.card-container {
+    /* Step A: Enable Flexbox to make them side-by-side */
+    display: flex; 
+    
+    /* Step B: Center the entire group of cards horizontally */
+    justify-content: center; 
+    
+    /* Optional: Add spacing between the cards */
+    gap: 30px; 
+    
+    /* Optional: Add vertical padding for breathing room */
+    padding: 40px 20px; 
+}

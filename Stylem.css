@@ -1,0 +1,21 @@
+body {
+    
+    background-image: url('https://static.ambitionbox.com/api/v2/photo/RHIwODlFbHVaTGVuekljamhNSmdGdz09'); 
+    
+    /* 2. CRITICAL: Scales the image to be as large as possible to cover the entire container. 
+       It may crop the edges of the image, but it guarantees full coverage. */
+    background-size: cover; 
+    
+    /* 3. Centers the image in the viewport */
+    background-position: center center;
+    
+    /* 4. Fixes the image relative to the viewport, so it stays put when you scroll */
+    background-attachment: fixed;
+    
+    /* 5. Ensures the body element takes up at least the full height of the browser window */
+    min-height: 100vh;
+    
+    /* 6. Removes any default browser margins/padding that could create tiny gaps */
+    margin: 0;
+    padding: 0;
+}

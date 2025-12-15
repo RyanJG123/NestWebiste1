@@ -1,0 +1,104 @@
+/* --- 1. GLOBAL AESTHETIC: Clean, Dark Gradient --- */
+body {
+    /* Replacing the busy image with a professional dark gradient (Navy/Slate) */
+    background-color: #0d1a26; 
+    background-image: linear-gradient(
+        to bottom right, 
+        #102e53, /* Dark Navy Blue */
+        #1e7acf  /* Deep Slate/Black */
+    );
+    color: #eaeaea; /* Light text color for high contrast */
+    font-family: 'Inter', sans-serif, Arial, sans-serif; /* Professional font stack */
+    min-height: 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+/* Style the Contact Us button */
+.btn-primary {
+    background-color: #4dc4e0; /* Bright blue accent */
+    border: none;
+    color: #0d1a26; /* Dark text on bright button */
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+/* --- 3. FEATURE/HEADER SECTION STYLING --- */
+.feature {
+    /* Clean up excess wrapping elements and center text */
+    text-align: center;
+    padding: 40px 5% 20px 5%;
+    background-color: transparent;
+}
+
+.feature h4 {
+    /* Main subtitle/tagline */
+    color: #4dc4e0; /* Use accent color */
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.feature p h5 {
+    /* Main descriptive paragraph */
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    font-weight: 300;
+}
+
+.feature h3 {
+    /* Product Portfolio title */
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+/* --- 4. PRODUCT IMAGE STYLING --- */
+.img-fluid {
+    /* Add padding/margin around the portfolio image */
+    padding: 30px 0;
+}
+
+/* --- 5. BOTTOM SECTION (Experience) STYLING --- */
+.container.py-5 {
+    /* Ensure this section is clear and legible */
+    background-color: rgba(0, 0, 0, 0.3); /* Slightly transparent box to make text pop */
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.text-primary {
+    color: #4dc4e0 !important; /* Use accent color for section title */
+    font-weight: 700 !important;
+    border-bottom: 2px solid #4dc4e0;
+    padding-bottom: 10px;
+}
+
+.list-unstyled p {
+    color: #d9dcdf;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.list-unstyled .fw-bold {
+    color: #fff; /* Ensure key terms stand out */
+}
+
+/* --- 6. FOOTER STYLING --- */
+footer {
+    background-color: #09131a !important; /* Even darker than the body for distinction */
+    border-top: 3px solid #4dc4e0; /* Accent line */
+    color: #6c757d !important;
+}
